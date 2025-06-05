@@ -1,9 +1,3 @@
-## Setup
-1. Clone: `git clone https://github.com/Martha3001/stock-price-and-news-challenge-week1.git`
-2. Create venv: `python3 -m venv .venv`
-3. Activate: `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\activate` (Windows)
-4. Install: `pip install -r requirements.txt`
-
 # Predicting Price Moves with News Sentiment
 
 ## 📌 Overview
@@ -16,7 +10,7 @@ This project analyzes the correlation between financial news sentiment and stock
 **Key Stocks Analyzed**: AAPL, AMZN, NVDA, TSLA, FB, GOOG, MSFT
 
 ## 📂 Repository Structure
-
+```
 stock-price-and-news-challenge-week1/
 ├── data/
 ├── notebooks/
@@ -33,7 +27,7 @@ stock-price-and-news-challenge-week1/
 ├── .gitignore
 ├── requirements.txt # Python dependencies
 └── README.md # This file
-
+```
 
 ## 🔍 Key Findings
 
@@ -56,8 +50,8 @@ cd stock-price-and-news-challenge-week1
 2. Create virtual environment:
 ```bash
 python -m venv .venv
-source venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
+source venv/bin/activate 
+.venv\Scripts\activate
 ```
 
 3.Install dependencies:
